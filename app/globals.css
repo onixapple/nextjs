@@ -26,6 +26,17 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.text-glow {
+  text-shadow: 0 0 2px #f04b04, 0 0 20px #fff, 0 0 42px rgb(249, 233, 5), 0 0 82px rgb(144, 242, 6),0 0 92px rgb(231, 209, 8);
+color: white;
+
+ 	
+ }
+ .maincontainer {
+    background-color: black;
+  
+ }
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
